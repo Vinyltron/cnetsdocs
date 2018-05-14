@@ -1,0 +1,54 @@
+\hypertarget{newtemplate_8php}{}\section{newtemplate.\+php File Reference}
+\label{newtemplate_8php}\index{newtemplate.\+php@{newtemplate.\+php}}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{newtemplate_8php_ad6ba91f5c932dec6e72487c45999806b}{\$locations}} = array(\char`\"{}Library\char`\"{},\char`\"{}Portland\char`\"{},\char`\"{}Park\char`\"{},\char`\"{}Richmond\char`\"{},\char`\"{}IT Center\char`\"{},\char`\"{}Guildhall\char`\"{},\char`\"{}Langstone\char`\"{})
+\item 
+\mbox{\hyperlink{newtemplate_8php_aa6ba4db18633a3f6a040afa13cfb3c0b}{\$days}} = array(\char`\"{}sunday\char`\"{},\char`\"{}monday\char`\"{},\char`\"{}tuesday\char`\"{},\char`\"{}wednesday\char`\"{},\char`\"{}thursday\char`\"{},\char`\"{}friday\char`\"{},\char`\"{}saturday\char`\"{})
+\item 
+\mbox{\hyperlink{newtemplate_8php_af59a5f7cd609e592c41dc3643efd3c98}{\$query}} = \char`\"{}S\+E\+L\+E\+CT D\+I\+S\+T\+I\+N\+CT rota\+\_\+name F\+R\+OM fyp.\+rota\+\_\+templates\char`\"{}
+\item 
+\mbox{\hyperlink{newtemplate_8php_af27a9140d5f2658693e7fd107f716449}{\$stmt}} = \$db-\/$>$prepare(\$query)
+\item 
+if(\$stmt-\/$>$error\+Code()==0) \mbox{\hyperlink{newtemplate_8php_ab4d1a8c49bf3ed3141d8e13b4cfd33b1}{else}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{newtemplate_8php_aa6ba4db18633a3f6a040afa13cfb3c0b}\label{newtemplate_8php_aa6ba4db18633a3f6a040afa13cfb3c0b}} 
+\index{newtemplate.\+php@{newtemplate.\+php}!\$days@{\$days}}
+\index{\$days@{\$days}!newtemplate.\+php@{newtemplate.\+php}}
+\subsubsection{\texorpdfstring{\$days}{$days}}
+{\footnotesize\ttfamily \$days = array(\char`\"{}sunday\char`\"{},\char`\"{}monday\char`\"{},\char`\"{}tuesday\char`\"{},\char`\"{}wednesday\char`\"{},\char`\"{}thursday\char`\"{},\char`\"{}friday\char`\"{},\char`\"{}saturday\char`\"{})}
+
+\mbox{\Hypertarget{newtemplate_8php_ad6ba91f5c932dec6e72487c45999806b}\label{newtemplate_8php_ad6ba91f5c932dec6e72487c45999806b}} 
+\index{newtemplate.\+php@{newtemplate.\+php}!\$locations@{\$locations}}
+\index{\$locations@{\$locations}!newtemplate.\+php@{newtemplate.\+php}}
+\subsubsection{\texorpdfstring{\$locations}{$locations}}
+{\footnotesize\ttfamily \$locations = array(\char`\"{}Library\char`\"{},\char`\"{}Portland\char`\"{},\char`\"{}Park\char`\"{},\char`\"{}Richmond\char`\"{},\char`\"{}IT Center\char`\"{},\char`\"{}Guildhall\char`\"{},\char`\"{}Langstone\char`\"{})}
+
+\mbox{\Hypertarget{newtemplate_8php_af59a5f7cd609e592c41dc3643efd3c98}\label{newtemplate_8php_af59a5f7cd609e592c41dc3643efd3c98}} 
+\index{newtemplate.\+php@{newtemplate.\+php}!\$query@{\$query}}
+\index{\$query@{\$query}!newtemplate.\+php@{newtemplate.\+php}}
+\subsubsection{\texorpdfstring{\$query}{$query}}
+{\footnotesize\ttfamily \$query = \char`\"{}S\+E\+L\+E\+CT D\+I\+S\+T\+I\+N\+CT rota\+\_\+name F\+R\+OM fyp.\+rota\+\_\+templates\char`\"{}}
+
+\mbox{\Hypertarget{newtemplate_8php_af27a9140d5f2658693e7fd107f716449}\label{newtemplate_8php_af27a9140d5f2658693e7fd107f716449}} 
+\index{newtemplate.\+php@{newtemplate.\+php}!\$stmt@{\$stmt}}
+\index{\$stmt@{\$stmt}!newtemplate.\+php@{newtemplate.\+php}}
+\subsubsection{\texorpdfstring{\$stmt}{$stmt}}
+{\footnotesize\ttfamily \$stmt = \$db-\/$>$prepare(\$query)}
+
+\mbox{\Hypertarget{newtemplate_8php_ab4d1a8c49bf3ed3141d8e13b4cfd33b1}\label{newtemplate_8php_ab4d1a8c49bf3ed3141d8e13b4cfd33b1}} 
+\index{newtemplate.\+php@{newtemplate.\+php}!else@{else}}
+\index{else@{else}!newtemplate.\+php@{newtemplate.\+php}}
+\subsubsection{\texorpdfstring{else}{else}}
+{\footnotesize\ttfamily if ( \$stmt-\/$>$error\+Code()==0) else}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+\{
+            
+                        echo \textcolor{stringliteral}{'<option selected="selected">No Existing Rotas</option>'}
+\end{DoxyCode}
