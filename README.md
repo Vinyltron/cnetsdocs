@@ -24,7 +24,7 @@ Supported languages include:
  * \subpage correctSyntaxPage "Syntax to use"
   
 
-\page correctSyntaxPage Syntax to use
+ \page correctSyntaxPage Syntax to use
 
 Here is some information on the correct syntax to use in order to comment your code to be recognised by the Doxygen system.
 
@@ -34,10 +34,11 @@ See [here](http://www.stack.nl/~dimitri/doxygen/manual/docblocks.html) for full 
   * \subpage pythonSyntax "Syntax for Python"
   * \subpage vhdlSyntax "Syntax for VHDL"
 
-\page vhdlSyntax
+ /*! \page vhdlSyntax
+*/
 
-\page pythonSyntax
-
+/*!
+ \page pythonSyntax
 The following Syntax is used to document Python
 
 ```python
@@ -69,8 +70,10 @@ The following Syntax is used to document Python
         ## @var _memVar
         #  a member variable
 ```
+*/
 
-\page cSyntax
+
+/*! \page cSyntax
 
 The following Syntax is used to document C/C++/C#/Objective-C/PHP/Java languages
 
@@ -122,3 +125,4 @@ or
 /// ... text ...
 /////////////////////////////////////////////////
 ```
+*/
