@@ -1,7 +1,7 @@
 var indexSectionsWithContent =
 {
-  0: "dgnrs",
-  1: "n",
+  0: "dgnprs",
+  1: "np",
   2: "nr",
   3: "gn",
   4: "ds"

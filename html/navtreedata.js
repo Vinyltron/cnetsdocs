@@ -40,7 +40,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"correct_syntax_page.html"
+"c_syntax.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

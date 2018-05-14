@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['phptest_2ephp',['phptest.php',['../phptest_8php.html',1,'']]]
+  ['syntax_20to_20use',['Syntax to use',['../correct_syntax_page.html',1,'index']]]
 ];

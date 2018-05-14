@@ -1,1 +1,64 @@
-Here is some information on the correct syntax to use in order to comment your code to be recognised by the Doxygen system 
+Here is some information on the correct syntax to use in order to comment your code to be recognised by the Doxygen system.
+
+See \href{http://www.stack.nl/~dimitri/doxygen/manual/docblocks.html}{\tt here} for full details
+
+
+\begin{DoxyItemize}
+\item \mbox{\hyperlink{c_syntax}{Syntax for C style Languages}}
+\item \mbox{\hyperlink{python_syntax}{Syntax for Python}}
+\item \mbox{\hyperlink{vhdl_syntax}{Syntax for V\+H\+DL}} 
+\end{DoxyItemize}\hypertarget{cSyntax}{}\section{c\+Syntax}\label{cSyntax}
+The following Syntax is used to document C/\+C++/C\#/\+Objective-\/\+C/\+P\+H\+P/\+Java languages
+
+You can use the Java\+Doc style, which consist of a C-\/style comment block starting with two $\ast$\textquotesingle{}s, like this\+: 
+\begin{DoxyCode}
+/**
+ * ... text ...
+ */
+\end{DoxyCode}
+ or you can use the Qt style and add an exclamation mark (!) after the opening of a C-\/style comment block, as shown in this example\+: 
+\begin{DoxyCode}
+/*!
+ * ... text ...
+ */
+\end{DoxyCode}
+ In both cases the intermediate $\ast$\textquotesingle{}s are optional, so 
+\begin{DoxyCode}
+/*!
+ ... text ...
+*/
+\end{DoxyCode}
+ is also valid.
+
+A third alternative is to use a block of at least two C++ comment lines, where each line starts with an additional slash or an exclamation mark. Here are examples of the two cases\+: 
+\begin{DoxyCode}
+///
+/// ... text ...
+///
+\end{DoxyCode}
+ or 
+\begin{DoxyCode}
+//!
+//!... text ...
+//!
+\end{DoxyCode}
+ Note that a blank line ends a documentation block in this case.
+
+Some people like to make their comment blocks more visible in the documentation. For this purpose you can use the following\+: 
+\begin{DoxyCode}
+/********************************************//**
+ *  ... text
+ ***********************************************/
+\end{DoxyCode}
+ (note the 2 slashes to end the normal comment block and start a special comment block).
+
+or 
+\begin{DoxyCode}
+/////////////////////////////////////////////////
+/// ... text ...
+/////////////////////////////////////////////////
+\end{DoxyCode}
+ \hypertarget{pythonSyntax}{}\section{python\+Syntax}\label{pythonSyntax}
+The following Syntax is used to document Python
+
+\`{}\`{}\`{}python \subsection*{}\hypertarget{vhdlSyntax}{}\section{vhdl\+Syntax}\label{vhdlSyntax}
